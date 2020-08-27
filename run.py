@@ -64,7 +64,7 @@ if __name__ == "__main__":
     parser.add_argument('--epoch', type=int, default=5)
     parser.add_argument('--lr', type=float, default=8e-5)
     parser.add_argument('--eval_steps', type=int, default=500)
-    parser.add_argument('--display_steps', type=int, default=100)
+    parser.add_argument('--displayshi_steps', type=int, default=100)
     parser.add_argument('--max_grad_norm', type=float, default=1.0)
     parser.add_argument('--eval_batch_size', type=int, default=4096)
     parser.add_argument('--seed', type=int, default=2020)
